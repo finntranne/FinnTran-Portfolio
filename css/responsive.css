@@ -61,8 +61,40 @@
     max-width: 475px;
   }
 
+  .section__title{
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
   .header__badge-container{
     flex-direction: column;
+  }
+
+  .about-me__container{
+    padding: 1rem;
+    width: 90%;
+    border-radius: 2rem;
+  }
+
+  .about-me__content-container{
+    border-radius: 2rem;
+  }
+}
+
+/* Small tablet */
+
+@media (max-width: 768px){
+  .container{
+    max-width: 640px;
+  }
+
+  .about-me__section{
+    margin: 80px auto;
+
+    & img{
+      display: none;
+    }
   }
 }
 
