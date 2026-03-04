@@ -1,65 +1,302 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <link rel="icon" href="./assets/rocket-icon.svg"> 
-  <title>FinnTran Portfolio</title>
-</head>
-<body>
-  <!-- Header -->
-   <header class="header">
-    <div class="header__container container">
-      <!-- left column -->
-      <div class="header__col--left">
-        <div>
-          <img class="header__img">
-        </div>
-        <div class="header__content">
-          <h2 class="header__title">FinnTran</h2>
-          <div class="header__badge-container">
-            <div class="badge">Web Developer</div>
-            <div class="badge">Backend Developer</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="icon" href="./assets/rocket-icon.svg" />
+    <title>FinnTran Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__container container">
+        <!-- left column -->
+        <div class="header__col--left">
+          <div>
+            <img class="header__img" />
           </div>
-          <p>Mong muốn ứng tuyển vị trí <span>Fresher Developer</span> trong lĩnh vực Backend</p>
+          <div class="header__content">
+            <h2 class="header__title">FinnTran</h2>
+            <div class="header__badge-container">
+              <div class="badge">Web Developer</div>
+              <div class="badge">Backend Developer</div>
+            </div>
+            <p>
+              Aspiring <span>Fresher Backend Developer</span> with a strong foundation in web technologies. Passionate about building scalable, maintainable, and efficient backend systems.
+            </p>
+          </div>
         </div>
-        
-      </div>
 
-      <!-- right column -->
-      <div class="header__col header__col--right">
-        <h2 class="header__title">Thong tin lien he</h2>
-        <p>
-          Gui email cho minh tai: <span>tranhuuthoai8605@gmail.com</span>
-        </p>
-        <p>
-          Goi cho minh tai:
-          <span>0369550806</span>
-        </p>
-      </div>
-    </div>
-   </header>
-
-   <!-- About me -->
-   <section class="about-me__section">
-    <img src="./assets/rocket-icon.svg" alt="rocketicon">
-    <img src="./assets/laptop-icon.svg" alt="laptio icon">
-    <div class="about-me__container">
-      <div class="about-me__content-container">
-        <h1 class="section__title">Giới thiệu bản thân</h1>
-        <p class="section__description">Xin chào mình tên là Trần Hữu Thoại</p>
-        <div class="CTA">
-          <a href="./assets/CV_Resume.pdf" target="_blank" rel="noopener noreferrer" class="primary-button" download>Tải CV</a>
-
-          <a href="#projects-container" class="outline-button">Xem dự án</a>
+        <!-- right column -->
+        <div class="header__col header__col--right">
+          <h2 class="header__title">CONTACT INFORMATION</h2>
+          <p>Email: <span>tranhuuthoai8605@gmail.com</span></p>
+          <p>
+            Phone:
+            <span>0369550806</span>
+          </p>
         </div>
       </div>
+    </header>
 
-    </div>
+    <!-- About me -->
+    <section class="about-me__section">
+      <img src="./assets/rocket-icon.svg" alt="rocketicon" />
+      <img src="./assets/laptop-icon.svg" alt="laptio icon" />
+      <div class="about-me__container">
+        <div class="about-me__content-container">
+          <h1 class="section__title">ABOUT ME</h1>
+          <p class="section__description">
+            Hello! My name is Tran Huu Thoai, a passionate and detail-oriented developer who is deeply interested in backend development.
+          </p>
+          <div class="CTA">
+            <a
+              href="./assets/CV_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="primary-button"
+              download
+              >Download CV</a
+            >
 
-   </section>
-  
-</body>
+            <a href="#projects-container" class="outline-button">View Projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills__section">
+      <div class="container skills__container">
+        <!-- header -->
+        <div class="section__header">
+          <h1 class="section__title">TECHNICAL SKILLS</h1>
+          <p class="section__description">
+            As an entry-level web developer, I have a strong foundation in front-end frameworks such as React and the Next.js library, along with hands-on experience working with back-end technologies like Node.js and Express.
+
+          </p>
+        </div>
+        <!-- grid -->
+        <div class="skills__grid-container">
+          <div class="skills__grid-item"></div>
+          <div class="skills__grid-item">
+            <div class="skills__grid-item-header">
+              <div>
+                <img src="./assets/check-icon.svg" alt="" />
+                <h2>TOOLS & TECHNOLOGIES</h2>
+              </div>
+              <p>Proficient in modern web development tools and technologies, with experience building interactive and user-friendly web applications. Passionate about writing clean, maintainable, and well-structured code.</p>
+            </div>
+            <div>
+              <div class="icons-list-wrapper">
+                <div class="icons-list">
+                  <div class="icons-badges">
+                    <img src="./assets/icons/C.svg" alt="C icon" />
+                    <span>C</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/github.svg" alt="Github icon" />
+                    <span>Github</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/css.svg" alt="CSS icon" />
+                    <span>CSS</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/java.svg" alt="java icon" />
+                    <span>Java</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/html.svg" alt="HTML icon" />
+                    <span>HTML</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/nextjs.svg" alt="nextjs icon" />
+                    <span>Nextjs</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/JS.svg" alt="JS icon" />
+                    <span>JS</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/node-js.svg" alt="nodejs icon" />
+                    <span>Nodejs</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img
+                      src="./assets/icons/postgresql.svg"
+                      alt="postgresql icon"
+                    />
+                    <span>Postgresql</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/react.svg" alt="react icon" />
+                    <span>React</span>
+                  </div>
+                </div>
+              </div>
+              <div class="icons-list-wrapper">
+                <div class="icons-list">
+                  <div class="icons-badges">
+                    <img src="./assets/icons/C.svg" alt="C icon" />
+                    <span>C</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/github.svg" alt="Github icon" />
+                    <span>Github</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/css.svg" alt="CSS icon" />
+                    <span>CSS</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/java.svg" alt="java icon" />
+                    <span>Java</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/html.svg" alt="HTML icon" />
+                    <span>HTML</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/nextjs.svg" alt="nextjs icon" />
+                    <span>Nextjs</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/JS.svg" alt="JS icon" />
+                    <span>JS</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/node-js.svg" alt="nodejs icon" />
+                    <span>Nodejs</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img
+                      src="./assets/icons/postgresql.svg"
+                      alt="postgresql icon"
+                    />
+                    <span>Postgresql</span>
+                  </div>
+                  <div class="icons-badges">
+                    <img src="./assets/icons/react.svg" alt="react icon" />
+                    <span>React</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__grid-item">
+            <div class="skills__grid-item-header">
+              <div>
+                <img src="./assets/check-icon.svg" alt="" />
+                <h2>SOFT SKILLS</h2>
+              </div>
+              <p>
+                Excellent communication, collaboration, and problem-solving skills, with a proactive mindset and strong eagerness to learn. Highly adaptable and able to thrive in dynamic team environments.
+              </p>
+            </div>
+
+            <div class="soft-skills__container">
+              <div class="soft-skills_badge">
+                <p>Strong communication skills</p>
+              </div>
+              <div class="soft-skills_badge">
+                <p>Effective teamwork and collaboration</p>
+              </div>
+              <div class="soft-skills_badge">
+                <p>Problem-solving mindset</p>
+              </div>
+              <div class="soft-skills_badge">
+                <p>Time management and task prioritization</p>
+              </div>
+            </div>
+          </div>
+          <div class="skills__grid-item"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+     <section class="projects__section" id="projects-container">
+      <div class="container projects_container">
+        <!-- header -->
+         <div class="section__header">
+          <h1 class="section__title">PROJECTS</h1>
+          <p class="section__description">The following projects were developed during my academic journey and personal practice. These projects helped me strengthen my technical skills and improve my ability to solve real-world problems.</p>
+         </div>
+
+         <!-- card -->
+          <div class="projects__card-container">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="projects__cards">
+                <div class="projects__card-wrapper">
+                  <img src="./assets/project3.jpg" alt="project01" class="projects__card-img">
+                </div>
+                <div class="projects__card-titles">
+                  <h4>Project 01</h4>
+                  <h3>To do list</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="projects__cards">
+                <div class="projects__card-wrapper">
+                  <img src="./assets/project3.jpg" alt="project01" class="projects__card-img">
+                </div>
+                <div class="projects__card-titles">
+                  <h4>Project 02</h4>
+                  <h3>comming soon</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="projects__cards">
+                <div class="projects__card-wrapper">
+                  <img src="./assets/project3.jpg" alt="project01" class="projects__card-img">
+                </div>
+                <div class="projects__card-titles">
+                  <h4>Project 03</h4>
+                  <h3>comming soon</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="projects__cards">
+                <div class="projects__card-wrapper">
+                  <img src="./assets/project3.jpg" alt="project01" class="projects__card-img">
+                </div>
+                <div class="projects__card-titles">
+                  <h4>Project 04</h4>
+                  <h3>comming soon</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="projects__cards">
+                <div class="projects__card-wrapper">
+                  <img src="./assets/project3.jpg" alt="project01" class="projects__card-img">
+                </div>
+                <div class="projects__card-titles">
+                  <h4>Project 05</h4>
+                  <h3>comming soon</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+      </div>
+     </section>
+
+     <!-- footer -->
+      <footer>
+        <div class="container">
+          <p>©Finn Tran Portfolio</p>
+        </div>
+      </footer>
+  </body>
 </html>
