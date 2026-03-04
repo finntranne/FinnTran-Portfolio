@@ -3,7 +3,7 @@
 Personal portfolio website built with HTML & CSS.
 
 ## 🔗 Live Demo
-https://yourusername.github.io/repository-name/
+https://finntranne.github.io/FinnTran-Portfolio/
 
 ## 🛠 Tech Stack
 - HTML5
